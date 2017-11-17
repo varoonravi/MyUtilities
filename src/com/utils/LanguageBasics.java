@@ -10,6 +10,7 @@ public class LanguageBasics {
 		String input = new String("ಸಕ್ಕೊಟೈಬ್ಲಾಕ್".getBytes());
 		char languageContext = lb.getLangContext(input);
 		System.out.println(Integer.toHexString(languageContext & 0xff00));
+		
 	}
 	
 	public char getLangContext(String word)
